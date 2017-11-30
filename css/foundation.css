@@ -1,4 +1,9 @@
 @charset "UTF-8";
+@import 'foundation';
+
+/*//@include foundation-grid;*/
+@include foundation-flex-classes;
+@include foundation-flex-grid;
 /**
  * Foundation for Sites by ZURB
  * Version 6.4.2

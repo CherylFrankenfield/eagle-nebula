@@ -1,6 +1,13 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: distant_galaxyregular;
 }
+body {
+  background: #000;
+  color: #fff;
+}
+.main-content {
+    margin-top: 70px;
+}
 .menu {
     align-items: center;
 }
@@ -9,7 +16,8 @@ h1, h2, h3, h4, h5, h6 {
     height: 100vh;
     background: #000 url(../img/eagle-large.jpg) no-repeat center;
     background-size: cover;
-}
+    z-index: 1;
+    }
 
 .sticky-shrinknav-menu {
   background: #00000088;
