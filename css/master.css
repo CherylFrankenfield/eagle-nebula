@@ -44,3 +44,21 @@ h1.sticky-shrinknav-header-title {
   background: #ffffff4a;
   color: #000;
 }
+
+.blockquote-container {
+  width: 100vw;
+  background: #fff url(../img/quote-star.jpg) no-repeat center;
+  background-size: cover;
+  z-index: 1;
+  padding: 30px;
+}
+
+.callout {
+  background: #0a0a0a1c;
+}
+
+.callout h4 {
+  color: white;
+  font-size: 3vw;
+  text-align: center;
+}
