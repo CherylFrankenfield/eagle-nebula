@@ -13,4 +13,7 @@ $(function() {
       $("body").removeClass("sticky-shrinknav-wrapper");
     }
   });
+  $(".sticky").stick_in_parent({
+    offset_top: 70
+  });
 });
